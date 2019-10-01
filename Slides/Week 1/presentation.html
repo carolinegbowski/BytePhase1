@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<!--
+  Copyright 2010 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Ernest Delgado (ernestd@google.com)
+                 Alex Russell (slightlyoff@chromium.org)
+
+  landslide modifications: Adam Zapletal (adamzap@gmail.com)
+                           Nicolas Perriault (nperriault@gmail.com)
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Phase 1 - Week 1</title>
+    <!-- Styles -->
+    
+    <link rel="stylesheet" media="print" href="file:///usr/local/lib/python3.6/dist-packages/landslide/themes/default/css/print.css">
+    <link rel="stylesheet" media="screen, projection" href="file:///usr/local/lib/python3.6/dist-packages/landslide/themes/default/css/screen.css">
+    
+    
+    <!-- /Styles -->
+    <!-- Javascripts -->
+    
+    <script type="text/javascript" src="file:///usr/local/lib/python3.6/dist-packages/landslide/themes/default/js/slides.js"></script>
+    
+    
+    
+    <!-- /Javascripts -->
+</head>
+<body>
+  <div id="blank"></div>
+  <div class="presentation">
+    <div id="current_presenter_notes">
+      <div id="presenter_note"></div>
+    </div>
+    <div class="slides">
+      
+      <!-- slide source: README.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-1">
+          <div class="inner">
+            
+            <header><h1>Phase 1 - Week 1</h1></header>
+            
+            
+            <section><h2>Introduction and Environment</h2>
+<h3><a href="https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction%20and%20Environment/Introduction-to-Computer-Science.md">Introduction to Computer Science</a></h3>
+<ul>
+<li>What is a computer</li>
+<li>What is a programming language</li>
+<li>What is Python</li>
+<li>Why Python</li>
+</ul>
+<h3><a href="https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction%20and%20Environment/The-BASH-Environment.md">The BASH Environment</a></h3>
+<ul>
+<li>Theory of BASH</li>
+<li>Bash commands and navigation</li>
+</ul>
+<h3><a href="https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction%20and%20Environment/The-git-Environment.md">The git Environment</a></h3>
+<ul>
+<li>Theory of git</li>
+<li>git commands and navigation</li>
+</ul>
+<h3><a href="https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction%20and%20Environment/The-VS-Code-Environment.md">The VS Code Environment</a></h3>
+<ul>
+<li>Setup</li>
+</ul>
+<h2>Introduction to Python</h2>
+<h3><a href="https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python/Data-Types.md">Data Types</a></h3>
+<ul>
+<li>Hello World</li>
+<li>variables</li>
+<li>comments</li>
+<li>definitions vs declarations window</li>
+<li>input/output</li>
+<li>Number (<code>int</code>, <code>float</code>)</li>
+<li>methods<ul>
+<li>initialization</li>
+<li>6 comparison operators</li>
+<li>6 arithmetic operators</li>
+<li>2 type casters</li>
+</ul>
+</li>
+<li>features<ul>
+<li>immutable</li>
+<li>is operator</li>
+<li>caching</li>
+</ul>
+</li>
+<li>Boolean (<code>bool</code>)</li>
+<li>methods<ul>
+<li>initialization</li>
+<li>3 boolean operators</li>
+</ul>
+</li>
+<li>features<ul>
+<li>immutable</li>
+<li>short circuiting</li>
+<li>lazy evaluation</li>
+</ul>
+</li>
+<li>String (<code>str</code>)</li>
+<li>methods<ul>
+<li>initialization/len</li>
+<li>isupper/upper</li>
+<li>join/split</li>
+</ul>
+</li>
+<li>features<ul>
+<li>immutable</li>
+<li>iteration</li>
+<li>slicing</li>
+<li>f-strings</li>
+</ul>
+</li>
+<li>List (<code>list</code>)</li>
+<li>methods<ul>
+<li>initialization/len</li>
+<li>append/remove/+</li>
+<li>index/insert/pop</li>
+</ul>
+</li>
+<li>features<ul>
+<li>mutable</li>
+<li>iteration</li>
+<li>slicing</li>
+</ul>
+</li>
+<li>Tuple (<code>tuple</code>)</li>
+<li>methods<ul>
+<li>initialization/len</li>
+</ul>
+</li>
+<li>features<ul>
+<li>immutable</li>
+<li>iteration</li>
+<li>slicing</li>
+</ul>
+</li>
+<li>Dictionary (<code>dict</code>)</li>
+<li>methods<ul>
+<li>initialize/len</li>
+<li>get/set</li>
+<li>keys/values/items</li>
+</ul>
+</li>
+<li>features<ul>
+<li>mutable container with immutable keys, mutable values</li>
+<li>iteration</li>
+</ul>
+</li>
+<li>Set (<code>set</code>)</li>
+<li>methods<ul>
+<li>initialization/len</li>
+<li>set operators (&amp;, |, /)</li>
+<li>add/remove</li>
+</ul>
+</li>
+<li>features<ul>
+<li>mutable container with immutable keys</li>
+<li>iteration</li>
+</ul>
+</li>
+<li>Type categorization</li>
+<li>Mutable(Hashable)</li>
+<li>Sequenceable</li>
+<li>Iterable</li>
+</ul>
+<h3><a href="https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python/Control-Flow.md">Control Flow</a></h3>
+<ul>
+<li>Scope (LEGB, global/nonlocal)</li>
+<li>Conditionals</li>
+<li>several if vs if/elif/else</li>
+<li>Iteration</li>
+<li>while vs for</li>
+<li>for i in range() vs for i in X</li>
+<li>Leaky scope</li>
+<li>Comprehensions</li>
+</ul>
+<h3><a href="https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python/Functions.md">Functions</a></h3>
+<ul>
+<li>Python logic unit abstraction model (formally defined as <strong>functions</strong>)</li>
+<li>Formally define: keywords, function name/parameters/arguments/body</li>
+<li>Functions are first class citizens</li>
+<li>positional/keyword/default/args/kwargs</li>
+<li>decorators</li>
+</ul>
+<h3><a href="https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python/Complexity-Theory.md">Complexity Theory</a></h3>
+<h2>Python Featuers</h2>
+<h3><a href="https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Python-Features/Exceptions.md">Exceptions</a></h3>
+<h3><a href="https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Python-Features/Context-Managers.md">Context Managers</a></h3>
+<h3><a href="https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Python-Features/Modules.md">Modules</a></h3></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="README.md">README.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              1/1
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id="toc" class="sidebar hidden">
+    <h2>Table of Contents</h2>
+    <table>
+      <caption>Table of Contents</caption>
+      
+      <tr id="toc-row-1">
+        <th><a href="#slide1">Phase 1 - Week 1</a></th>
+        <td><a href="#slide1">1</a></td>
+      </tr>
+      
+      
+    </table>
+  </div>
+  
+  <div id="help" class="sidebar hidden">
+    <h2>Help</h2>
+    <table>
+      <caption>Help</caption>
+      <tr>
+        <th>Table of Contents</th>
+        <td>t</td>
+      </tr>
+      <tr>
+        <th>Exposé</th>
+        <td>ESC</td>
+      </tr>
+      <tr>
+        <th>Full screen slides</th>
+        <td>e</td>
+      </tr>
+      <tr>
+        <th>Presenter View</th>
+        <td>p</td>
+      </tr>
+      <tr>
+        <th>Source Files</th>
+        <td>s</td>
+      </tr>
+      <tr>
+        <th>Slide Numbers</th>
+        <td>n</td>
+      </tr>
+      <tr>
+        <th>Toggle screen blanking</th>
+        <td>b</td>
+      </tr>
+      <tr>
+        <th>Show/hide slide context</th>
+        <td>c</td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th>Help</th>
+        <td>h</td>
+      </tr>
+    </table>
+  </div>
+  <script>main()</script>
+</body>
+</html>
