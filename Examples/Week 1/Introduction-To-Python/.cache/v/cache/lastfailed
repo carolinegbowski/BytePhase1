@@ -1,5 +1,0 @@
-{
-  "test_hello_world.py::test_q1_lower": true, 
-  "test_hello_world.py::test_q1_upper": true, 
-  "test_introduction_to_python.py::test_question_1_lower": true
-}
