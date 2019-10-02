@@ -93,7 +93,6 @@
 * While vs For Loop
 * Iteration over range vs set
 * Comprehensions
-* Leaky scope
 
 ## Functions
 ### Basics
@@ -101,8 +100,8 @@
 * Formally define: keywords, function name/parameters/arguments/body
 
 ### Scope
-* LEGB
-* global/nonlocal
+* Leaky
+* LEGB (global/nonlocal)
 
 ### Functional Programming
 * Lambda functions
