@@ -2,6 +2,7 @@
 
 ## [Introduction and Environment](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Introduction%20and%20Environment)
 ### [Introduction to Computer Science](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-to-Computer-Science.md)
+* What is a Computer
 ### [The BASH Environment](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-BASH-Environment.md)
 ### [The git Environment](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-git-Environment.md)
 ### [The VS Code Environment](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-VS-Code-Environment.md)
