@@ -1,4 +1,4 @@
-ntroduction to Python
+# Introduction to Python
 
 ## [Hello World](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python/Hello-World.md)
 
