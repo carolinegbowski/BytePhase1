@@ -56,7 +56,3 @@ This phase is ...
 * Sanitization
 * Aggregation
 * Visualization
-
-#### **[Examples](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Examples)** 
-
-#### **[Assignments](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Assignments)** 
