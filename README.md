@@ -31,7 +31,6 @@ This phase is ...
 * Protocols
 
 ### [Data Structures](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%202/Slides/Data-Structures)
-* Basic Operations
 * Linked List
 * Binary Tree
 * Hash Table
