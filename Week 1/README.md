@@ -3,10 +3,15 @@
 ## [Introduction and Environment](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Introduction%20and%20Environment)
 ### [Introduction to Computer Science](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-to-Computer-Science.md)
 * What is a Computer
-### [The BASH Environment](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-BASH-Environment.md)
-### [The git Environment](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-git-Environment.md)
-### [The VS Code Environment](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-VS-Code-Environment.md)
-### [The Juypter Notebook Environment](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-VS-Code-Environment.md)
+* What is a programming language
+* What is Python
+* Why Python
+
+### [The Programming Environment](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-BASH-Environment.md)
+* The BASH Environment
+* The git Environment
+* The VS Code Environment
+* The Juypter Notebook Environment
 
 ## [Introduction to Python](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python)
 ### [Hello World](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python/Hello-World.md)
@@ -55,6 +60,17 @@
 * Fibonacci Improvements and O(n)
 
 ## [Python Featuers](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Python-Features)
-* [Exceptions](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Exceptions.md)
-* [Context Managers](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Context-Managers.md)
-* [Modules](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Modules.md)
+### [Exceptions](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Exceptions.md)
+* ```try```, ```except```, ```raise```
+* Exception hierarchy
+
+### [Context Managers](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Context-Managers.md)
+* ```with```, ```open``` and difference
+* file handling example
+
+### [Modules](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Modules.md)
+* ```import X```
+* ```import X as var```
+* ```from X import Y```
+* ```import X.Y```
+* ```from A.B import X.Y```
