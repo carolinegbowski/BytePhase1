@@ -4,14 +4,14 @@
 
 ## Goals
 
-This phase is ...
+Students should be fully comfortable with the Python programming language after completion of this phase. This ranges from leveraging the built-in syntax and semantics that make up the language, as well as understanding the libraries to build complex applications designed to solve a broad range of problems.
 
 ## [Week 1](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201)
 ### [Introduction and Environment](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Introduction%20and%20Environment)
 * Introduction to Computer Science
 * The BASH Environment
 * The git Environment
-* The VS Code Environment
+* The Development Environment
 
 ### [Introduction to Python](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python)
 * Hello World

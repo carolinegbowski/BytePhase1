@@ -1,1 +1,0 @@
-# The VS Code Environment
