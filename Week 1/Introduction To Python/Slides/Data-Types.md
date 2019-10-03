@@ -289,3 +289,17 @@ x = {1, 2, 3}
 for i in x:
  print(i)
 ```
+
+## Type Classifications
+### Collection
+* Properties
+* Types
+### Mutable (Hashable)
+* Properties
+* Types
+### Sequencable
+* Properties
+* Types
+### Iterable
+* Properties
+* Types
