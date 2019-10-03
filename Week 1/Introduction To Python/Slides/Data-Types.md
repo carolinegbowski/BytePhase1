@@ -8,7 +8,6 @@ x = 5
 ### Method - 6 Arithmetic Operators
 ```Python
 3 + 2 # 5
-3 + 2 # 5
 3 - 2 # -1
 3 * 2 # 6
 3 / 2 # 1.5
