@@ -29,6 +29,7 @@ Students should be fully comfortable with the Python programming language after 
 * Protocols
 
 ### [Data Structures](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%202/Slides/Data-Structures)
+* Basics
 * Linked List
 * Binary Tree
 * Hash Table
