@@ -64,11 +64,6 @@
 * Feature - Mutable Container
 * Feature - Immutable Keys
 * Feature - Iteration
-### Type Classification
-* Collection
-* Mutable (Hashable)
-* Sequenceable
-* Iterable
 
 ## [Control Flow](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%201/Introduction%20To%20Python/Slides/Control-Flow.md)
 ### Conditionals
