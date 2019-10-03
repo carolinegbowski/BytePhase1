@@ -40,6 +40,10 @@
 * Trie
 * Hash Table
 ### Hash Table Operations
+* Create
+* Insert
+* Delete
+* Search
 
 ## Graph
 ### Types of Graphs
