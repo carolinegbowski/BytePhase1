@@ -6,41 +6,41 @@
 
 Students should be fully comfortable with the Python programming language after completion of this phase. This ranges from leveraging the built-in syntax and semantics that make up the language, as well as understanding the libraries to build complex applications designed to solve a broad range of problems.
 
-## [Week 1](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201)
-### [Introduction and Environment](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Introduction%20and%20Environment)
+## [Week 1](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%201)
+### [Introduction and Environment](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%201/Introduction%20and%20Environment)
 * Introduction to Computer Science
 * The Programming Environment
 
-### [Introduction to Python](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python)
+### [Introduction to Python](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%201/Introduction%20To%20Python)
 * Hello World
 * Data Types
 * Control Flow
 * Functions
 * Complexity Theory
 
-### [Python Features](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Python-Features)
+### [Python Features](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%201/Python%20Features)
 * Context Managers
 * Exceptions
 * Modules
 
-## [Week 2](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%202)
-### [Classes](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%202/Slides/Classes)
+## [Week 2](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%202)
+### [Classes](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%202/Classes)
 * Class Basics
 * Protocols
 
-### [Data Structures](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%202/Slides/Data-Structures)
+### [Data Structures](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%202/Data%20Structures)
 * Basics
 * Linked List
 * Binary Tree
 * Hash Table
 * Graph 
 
-### [Python Internals](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%202/Slides/Python-Internals)
+### [Python Internals](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%202/Python%20Internals)
 * Data Types
 * Classes, Modules, Functions
 * Putting It All Together
 
-## [Week 3](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%203)
+## [Week 3](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%203/Modules)
 ### [Python Modules](...)
 * Requests
 * Database
@@ -50,7 +50,7 @@ Students should be fully comfortable with the Python programming language after 
 * Collections
 
 
-## [Week 4](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%204)
+## [Week 4](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%204)
 ### [Dealing with Data](...)
 * Data Collection
   * Numpy
