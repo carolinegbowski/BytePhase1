@@ -1,6 +1,6 @@
 # Phase 1 - Week 4
 
-## Dealing with Data 
+## [Dealing with Data](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%204/Dealing%20With%20Data)
 
 ### [Introduction to Computer Science](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-to-Computer-Science.md)
 * What is a computer
