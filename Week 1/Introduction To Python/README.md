@@ -80,7 +80,7 @@
 * Sequenceable
 * Iterable
 
-## Control Flow
+## [Control Flow](...)
 ### Conditionals
 * Basics
 * If/if vs if/elif
@@ -91,7 +91,7 @@
 * Iteration over range vs set
 * Comprehensions
 
-## Functions
+## [Functions](...)
 ### Basics
 * Python logic unit abstraction model
 * Formally define: keywords, function name/parameters/arguments/body
@@ -109,7 +109,7 @@
 * Args/Kwargs
 * Decorators
 
-## Complexity Theory
+## [Complexity Theory](...)
 ### Introduction to Big-O
 * Asymptotic Runtime
 * O(n) - for loop
