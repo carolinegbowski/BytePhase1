@@ -1,6 +1,6 @@
 # Python Featuers
 
-## [Exceptions](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Python-Features/Exceptions.md)
+## [Exceptions](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%201/Python%20Features/Slides/Exceptions.md)
 ### Python Exceptions
 * Exception Breakdown
 * Common Exceptions
@@ -9,7 +9,7 @@
 * Raising Your Own Exceptions
 * The Exception Hierarchy
 
-## [Context Managers](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Python-Features/Context-Managers.md)
+## [Context Managers](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%201/Python%20Features/Slides/Context-Managers.md)
 ### Deeper Look Into Memory
 * Files and Computation
 * Resource Acquisition
@@ -18,7 +18,7 @@
 * File Handling
 * Programmatic File Handling
 
-## [Modules](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Python-Features/Modules.md)
+## [Modules](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%201/Python%20Features/Slides/Modules.md)
 ### Module Scope
 * Modular Code
 * Model-View-Controller
