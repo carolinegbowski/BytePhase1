@@ -21,3 +21,4 @@
   * ```import X.Y```
   * ```from A.B import X.Y```
 * Libraries
+  * Exercise on collections library
