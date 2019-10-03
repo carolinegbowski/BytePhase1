@@ -18,10 +18,10 @@ x = 5
 ```Python
 2 == 1 # False
 2 != 1 # True
-2 > 1 # True
-2 >= 1 # True
 2 < 1 # False
 2 <= 1 # False
+2 > 1 # True
+2 >= 1 # True
 ```
 ### Method - 2 Type Casters
 ```Python
