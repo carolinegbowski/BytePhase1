@@ -51,7 +51,7 @@ Students should be fully comfortable with the Python programming language after 
 
 
 ## [Week 4](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%204)
-### [Dealing with Data](...)
+### [Dealing With Data](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%204/Dealing%20With%20Data)
 * Data Collection
   * Numpy
   * Pandas
