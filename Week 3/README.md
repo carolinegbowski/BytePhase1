@@ -1,51 +1,18 @@
 # Phase 1 - Week 3
 
-## [Classes](...)
-### [Basics](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Classes/Class-Basics.md)
-* Instance/Class Attributes/Methods
-* Inheritance
+## [Modules](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%203/Modules)
+### [Database](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%203/Modules/Slides/Database.md)
+* Database Theory
+* Databases in Python
 
-### [Protocols](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Classes/Protocols.md)
-* Airthmetic
-* Comparison
-* Print
-* Collection
-* Sequence
-* Iteration
-* Hashing
-* Content Managers
-* Exceptions
+### [Requests](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%203/Modules/Slides/Requests.md)
+* Request Theory
+* Requests in Python
 
-## [Data Structures](...)
-### [Basics](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Basic%20Operations.md)
-* Recursive Structures
-* Main Operations
+### [Testing](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%203/Modules/Slides/Testing.md)
+* Testing Theory
+* Testing in Python
 
-### [Linked List](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Linked%20List.md)
-* Types of Linked Lists
-* Linked List Operations
-
-### [Tree](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Tree.md)
-* Types of Trees
-* Tree Operations
-
-### [Hash Table](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Hash%20Table.md)
-* Types of Hash Tables
-* Hash Table Operations
-
-### [Graph](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Graph.md)
-* Types of Graphs
-* Graph Operations
-
-## [Python Internals](...)
-### [Data Types](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Python-Internals/Data%20Type%20Implementations.md)
-* Basic Types
-* List, Tuple
-* Dict, Set
-
-### [Classes and Modules](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Python-Internals/Data%20Manipulation%20Implementations.md)
-* Class
-* Module
-
-### [Putting It All Together](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Python-Internals/Putting%20It%20All%20Together.md)
-* Python Step By Step
+### [RegEx](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%203/Modules/Slides/RegEx.md)
+* RegEx Theory
+* RegEx in Python
