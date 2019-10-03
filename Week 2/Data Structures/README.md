@@ -25,7 +25,7 @@
 * Delete
 * Search
 
-## Tree
+## [Tree](...)
 ### Types of Trees
 * Binary (Search) Tree
 * Heap
@@ -35,7 +35,7 @@
 * Delete
 * Search
 
-## Hash Table
+## [Hash Table](...)
 ### Types of Hash Tables
 * Trie
 * Hash Table
@@ -45,7 +45,7 @@
 * Delete
 * Search
 
-## Graph
+## [Graph](...)
 ### Types of Graphs
 * Cyclic
 * Directional
