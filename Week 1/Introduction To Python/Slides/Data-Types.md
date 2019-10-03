@@ -16,12 +16,12 @@ x = 5
 ```
 ### Method - 6 Comparison Operators
 ```Python
-2 > 1 # True
-2 < 1 # False
-2 >= 1 # True
-2 <= 1 # False
 2 == 1 # False
 2 != 1 # True
+2 > 1 # True
+2 >= 1 # True
+2 < 1 # False
+2 <= 1 # False
 ```
 ### Method - 2 Type Casters
 ```Python
