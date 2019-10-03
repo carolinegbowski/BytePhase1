@@ -51,7 +51,10 @@ Students should be fully comfortable with the Python programming language after 
 
 ## [Week 4](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%204)
 ### [Dealing with Data](...)
-* Numpy
-* Pandas
-* Pickle
-* Matplotlib
+* Data Collection
+  * Numpy
+  * Pandas
+* Data Sanitization
+  * Picke
+* Data Visualization
+  * Matplotlib
