@@ -52,10 +52,8 @@
 ### [Exceptions](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%201/Python%20Features/Slides/Exceptions.md)
 * Python Errors
 * Catching Errors
-* Raising Errors
-* The Exception Hierarchy
 
 ### [Modules](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%201/Python%20Features/Slides/Modules.md)
-* Module Scope and MVC
+* Module Scope
 * Import Syntax
 * Libraries
