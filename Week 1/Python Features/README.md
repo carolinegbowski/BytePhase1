@@ -19,12 +19,12 @@
 * Programmatic File Handling
 
 ## [Modules](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Python-Features/Modules.md)
-### Module Scope and MVC
+### Module Scope
+* Modular Code
+* Model-View-Controller
 ### Import Syntax
-  * ```import X```
-  * ```import X as var```
-  * ```from X import Y```
-  * ```import X.Y```
-  * ```from A.B import X.Y```
+* Basic Importing
+* Nested Imports
 ### Libraries
-  * Exercise on collections library
+* The Standard Library
+* Computational Libraries
