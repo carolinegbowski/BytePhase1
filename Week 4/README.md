@@ -1,6 +1,6 @@
-# Phase 1 - Week 1
+# Phase 1 - Week 4
 
-## Introduction and Environment
+## Dealing with Data 
 
 ### [Introduction to Computer Science](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-to-Computer-Science.md)
 * What is a computer
