@@ -1,4 +1,4 @@
-ntroduction to Python
+# Introduction to Python
 
 ## [Hello World](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python/Hello-World.md)
 
@@ -84,29 +84,40 @@ ntroduction to Python
 * Iterable
 
 ## Control Flow
-* Conditionals
-* Ternary operators
-* several if vs if/elif/else
-* Iteration
-* while vs for
-* for i in range() vs for i in X
-* Leaky scope
-* Comprehensions (list, dict, set comprehensions)
+### Conditionals
+* Basics
+* If/if vs if/elif
+* Ternary Operator
+
+### Iteration
+* While vs For Loop
+* Iteration over range vs set
+* Comprehensions
 
 ## Functions
-* Python logic unit abstraction model (formally defined as functions)
-* Lambda functions, functional programming (Map/filter)
+### Basics
+* Python logic unit abstraction model
 * Formally define: keywords, function name/parameters/arguments/body
-* Scope (LEGB, global/nonlocal)
-* Functions are first class citizens - passed into functions
-* Functions are first class citizens - returned from functions
-* Functions are first class citizens - assigned to varirables
-* positional/keyword/default/args/kwargs
-* decorators
+
+### Scope
+* Leaky
+* LEGB (global/nonlocal)
+
+### Functional Programming
+* Lambda functions
+* Map and Filter
+
+### Advanced Functions
+* First class functions
+* Args/Kwargs
+* Decorators
 
 ## Complexity Theory
-* Intro to Big-O
+### Introduction to Big-O
+* Asymptotic Runtime
 * O(n) - for loop
+
+### Runtime Classifications
 * O(logn) - guessing game
 * O(n^2) - sorting
 * O(nlogn) Sorting improvements

@@ -9,9 +9,7 @@ Students should be fully comfortable with the Python programming language after 
 ## [Week 1](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201)
 ### [Introduction and Environment](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Introduction%20and%20Environment)
 * Introduction to Computer Science
-* The BASH Environment
-* The git Environment
-* The Development Environment
+* The Programming Environment
 
 ### [Introduction to Python](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python)
 * Hello World
