@@ -1,15 +1,15 @@
 # Dealing With Data
 
 ## [Data Collection](...)
-### [x](...)
-* y
-### [z](...)
-* zz
+### a
+* b
+### c
+* d
 
 ## [Data Sanitization](...)
-### [x](...)
-* y
+### e
+* f
 
 ## [Data Visualization](...)
-### [x](...)
-* y
+### g
+* h
