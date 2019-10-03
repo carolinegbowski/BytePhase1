@@ -27,7 +27,6 @@
 * Tuple
 * Dictionary
 * Set
-* Type Classification
 
 ### [Control Flow](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%201/Introduction%20To%20Python/Slides/Control-Flow.md)
 * Conditionals
