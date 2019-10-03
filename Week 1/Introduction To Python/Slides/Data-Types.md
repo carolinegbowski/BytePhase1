@@ -196,17 +196,17 @@ x[-1:-8-1]
 ## Dictionary (```dict```)
 ### Method - Initialization
 ```Python
-x = {1:"1", 2:"2", 3:"3"}
+x = {1:1, 2:2, 3:3}
 ```
 
 ### Method - ```len```
 ```Python
-x = {1:"1", 2:"2", 3:"3"}
+x = {1:1, 2:2, 3:3}
 len(x) # 3
 ```
 ### Method - ```get```, ```set```
 ```Python
-x = {1:"1", 2:"2", 3:"3"}
+x = {1:1, 2:2, 3:3}
 x[1] # "1"
 x[3] = "Hello"
 ```
@@ -224,22 +224,68 @@ for i in items:
  print(i)
 ```
 ### Feature - Mutable Container
+```Python
+x = {1:1, 2:2, 3:3}
+x[4] = "hi"
+print(x)
+```
 ### Feature - Immutable Keys
+```Python
+x = {1:1, 2:2, 3:3}
+x[4] = "hi"
+x["hi"] = 4
+x[["hi"]] = 4 # TypeError
+```
+
 ### Feature - Mutable Values
+```Python
+x = {1:1, 2:2, 3:3}
+x[4] = ["hi"]
+```
 ### Feature - Iteration
+```Python
+x = {1:1, 2:2, 3:3}
+for i in x:
+ print(i)
+```
 
 ## Set (```set```)
 ### Method - Initialization
+```Python
+x = {1, 2, 3}
+```
 ### Method - ```len```
+```Python
+x = {1, 2, 3}
+len(x) # 3
+```
 ### Method - ```&```, ```|```, ```/```
+```Python
+x = {1, 2, 3}
+y = {2, 3, 4}
+x & y # {2, 3}
+x | y # {1, 2, 3, 4}
+x / y # {1}
+```
 ### Method - ```add```, ```remove```
+```Python
+x = {1, 2, 3}
+x.add(5) # {1, 2, 3, 5}
+x.remove(3) # {1, 2, 5}
+```
 ### Feature - Mutable Container
+```Python
+x = {1, 2, 3}
+x.add(5)
+```
 ### Feature - Immutable Keys
+```Python
+x = {1, 2, 3}
+x.add([1, 2]) # TypeError
+```
 ### Feature - Iteration
-
-## Type classifications
-### Collection
-### Mutable (Hashable)
-### Sequenceable
-### Iterable
-
+```Python
+x = {1, 2, 3}
+for i in x:
+ print(i)
+```
