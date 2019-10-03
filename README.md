@@ -37,7 +37,7 @@ Students should be fully comfortable with the Python programming language after 
 
 ### [Python Internals](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%202/Python%20Internals)
 * Data Types
-* Classes, Modules, Functions
+* Classes and Modules
 * Putting It All Together
 
 ## [Week 3](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%203/Modules)
@@ -45,9 +45,7 @@ Students should be fully comfortable with the Python programming language after 
 * Requests
 * Database
 * Testing
-* Logging
 * RegEx
-* Collections
 
 
 ## [Week 4](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%204)
