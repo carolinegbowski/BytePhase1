@@ -162,14 +162,34 @@ x[-1:-8:-1]
 ```
 
 ## Tuple (```tuple```)
-  * initialization/indexing
-  * comparison vs lists
+### Method - Initialization
+### Method - ```len```
+### Feature - Immutable
+### Feature - Iteration
+### Feature - Slicing
+
 ## Dictionary (```dict```)
-  * immutable keys
-  * get/set
+### Method - Initialization
+### Method - ```len```
+### Method - ```get```, ```set```
+### Method - ```keys```, ```values```, ```items```
+### Feature - Mutable Container
+### Feature - Immutable Keys
+### Feature - Mutable Values
+### Feature - Iteration
+
 ## Set (```set```)
-  * &/|/+ operations
+### Method - Initialization
+### Method - ```len```
+### Method - ```&```, ```|```, ```/```
+### Method - ```add```, ```remove```
+### Feature - Mutable Container
+### Feature - Immutable Keys
+### Feature - Iteration
+
 ## Type classifications
-  * Collection
-  * Sequence (in, +, indexing, slicing, len, max/min, count)
-  * Iteration
+### Collection
+### Mutable (Hashable)
+### Sequenceable
+### Iterable
+
