@@ -7,7 +7,7 @@
 * Why Python
 
 ## [The Programming Environment](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%201/Introduction%20and%20Environment/Slides/The-Programming-Environment.md)
+* The VS Code Environment
 * The BASH Environment
 * The git Environment
-* The VS Code Environment
 * The Jupyter Notebook Environment
