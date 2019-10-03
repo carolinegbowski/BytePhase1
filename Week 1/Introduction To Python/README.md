@@ -22,9 +22,7 @@
 * Method - Arithmetic operators (6)
 * Method - Comparison operators (6)
 * Method - Type casters (2)
-* Feature - Immutable 
-* Feature - ```is``` operator
-* Feature - Caching
+* Feature - Immutable
 
 ### Boolean (```bool```)
 * Method - Initialization
@@ -36,9 +34,8 @@
 ### String (```str```)
 * Method - Initialization
 * Method - ```len```
-* Method - ```join```, ```split```
-* Method - ```upper```, ```isupper```
 * Feature - Immutable
+* Feature - Indexable
 * Feature - Iteration
 * Feature - Slicing
 
