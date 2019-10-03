@@ -44,13 +44,13 @@
 * Runtime Classifications
 
 ## [Python Featuers](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Python-Features)
-### [Exceptions](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Exceptions.md)
-* ```try```, ```except```, ```raise```
-* Exception hierarchy
-
 ### [Context Managers](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Context-Managers.md)
 * ```with```, ```open``` and difference
 * file handling example
+
+### [Exceptions](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Exceptions.md)
+* ```try```, ```except```, ```raise```
+* Exception hierarchy
 
 ### [Modules](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Modules.md)
 * ```import X```
