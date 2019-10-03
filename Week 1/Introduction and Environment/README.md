@@ -6,13 +6,8 @@
 * What is Python
 * Why Python
 
-## The BASH Environment
-* Theory of BASH
-* Bash commands and navigation
-
-## The git Environment
-* Theory of git
-* git commands and navigation
-
-## The VS Code Environment
-* Setup
+## The Programming Environment
+* The BASH Environment
+* The git Environment
+* The VS Code Environment
+* The Jupyter Notebook Environment
