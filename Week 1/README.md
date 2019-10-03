@@ -45,16 +45,17 @@
 
 ## [Python Featuers](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%201/Slides/Python-Features)
 ### [Context Managers](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Context-Managers.md)
-* ```with```, ```open``` and difference
-* file handling example
+* Resources and Files
+* ```with```, ```open```
+* Iterative File Handling
 
 ### [Exceptions](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Exceptions.md)
-* ```try```, ```except```, ```raise```
-* Exception hierarchy
+* Python Errors
+* Catching Errors
+* Raising Errors
+* The Exception Hierarchy
 
 ### [Modules](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Modules.md)
-* ```import X```
-* ```import X as var```
-* ```from X import Y```
-* ```import X.Y```
-* ```from A.B import X.Y```
+* Module Scope and MVC
+* Import Syntax
+* Libraries
