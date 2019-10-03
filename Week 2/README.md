@@ -1,6 +1,6 @@
 # Phase 1 - Week 2
 
-## Classes
+## [Classes](...)
 ### [Basics](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Classes/Class-Basics.md)
 * Instance/Class Attributes/Methods
 * Inheritance
@@ -16,7 +16,7 @@
 * Content Managers
 * Exceptions
 
-## Data Structures
+## [Data Structures](...)
 ### [Basics](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Basic%20Operations.md)
 * Recursive Structures
 * Main Operations
@@ -37,7 +37,7 @@
 * Types of Graphs
 * Graph Operations
 
-## Python Internals
+## [Python Internals](...)
 ### [Data Types](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Python-Internals/Data%20Type%20Implementations.md)
 * Basic Types
 * List, Tuple
