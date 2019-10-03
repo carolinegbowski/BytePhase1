@@ -43,10 +43,10 @@ Students should be fully comfortable with the Python programming language after 
 ### [Python Modules](...)
 * Testing
 * Logging
-* Requests
-* Database
 * RegEx
 * Collections
+* Requests
+* Database
 
 ## [Week 4](https://github.com/ByteAcademy-Curriculum/Data-Science/tree/master/Slides/Phase%201/Week%204)
 ### [Dealing with Data](...)
