@@ -17,11 +17,16 @@
 * Exceptions
 
 ## Data Structures
-### [Basic Operations](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Basic%20Operations.md)
-* Insert
-* Delete
-* Search
-* Traverse
+### [Basics](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Basic%20Operations.md)
+* Recursive Structures
+  * Fibonacci
+  * Loops to Recursion
+  * Thinking Recursively
+* Main Operations
+  * Create
+  * Insert
+  * Delete
+  * Search
   
 ### [Linked List](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Linked%20List.md)
 * Linked list types
