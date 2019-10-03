@@ -15,6 +15,10 @@ python hello-world.py
 
 ## Variables
 ### Name bindings (=)
+* This creates an object x. An object consists of 3 parts
+  * A name (x)
+  * A reference (the value it points at)
+  * An ID (a unique identifer for the reference)
 ```Python
 x = 1
 ```
