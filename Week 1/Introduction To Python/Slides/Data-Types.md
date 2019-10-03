@@ -81,7 +81,7 @@ x = "hello world"
 ```
 ### Method - ```len```
 ```Python
-len("hello") # 5
+len("hello world") # 11
 ```
 ### Feature - Immutable
 ```Python
@@ -163,16 +163,66 @@ x[-1:-8:-1]
 
 ## Tuple (```tuple```)
 ### Method - Initialization
+```Python
+x = (1, 2, 3)
+y = (1, )
+```
 ### Method - ```len```
+```Python
+len((1, 2, 3)) # 3
+```
+
 ### Feature - Immutable
+```Python
+x = (1, 2, 3)
+x[1] = 5 # TypeError
+```
+
 ### Feature - Iteration
+```Python
+x = (1, 2, 3)
+for i in x:
+ print(i)
+ ```
+ 
 ### Feature - Slicing
+```Python
+x = (1, 2, 3)
+x[1:3]
+x[1:3:2]
+x[-1:-8-1]
+```
 
 ## Dictionary (```dict```)
 ### Method - Initialization
+```Python
+x = {1:"1", 2:"2", 3:"3"}
+```
+
 ### Method - ```len```
+```Python
+x = {1:"1", 2:"2", 3:"3"}
+len(x) # 3
+```
 ### Method - ```get```, ```set```
+```Python
+x = {1:"1", 2:"2", 3:"3"}
+x[1] # "1"
+x[3] = "Hello"
+```
 ### Method - ```keys```, ```values```, ```items```
+```Python
+x = {1:"1", 2:"2", 3:"3"}
+keys = x.keys()
+values = x.values()
+items = x.items()
+for i in keys:
+ print(i)
+for i in values:
+ print(i)
+for i in items:
+ print(i)
+```
 ### Feature - Mutable Container
 ### Feature - Immutable Keys
 ### Feature - Mutable Values
