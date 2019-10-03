@@ -6,10 +6,8 @@
 * Common Exceptions
 ### Catching Exceptions
 * ```try```, ```catch```
-* ```raise```
-### The Exception Hierarchy
-* BaseException
-* Best Practices
+* Raising Your Own Exceptions
+* The Exception Hierarchy
 
 ## [Context Managers](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Python-Features/Context-Managers.md)
 ### Deeper Look Into Memory
