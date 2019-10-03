@@ -1,28 +1,51 @@
 # Phase 1 - Week 3
 
-## Python Modules
+## [Classes](...)
+### [Basics](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Classes/Class-Basics.md)
+* Instance/Class Attributes/Methods
+* Inheritance
 
-### [RegEx](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-VS-Code-Environment.md)
-* Theory of RegEx
-* RegEx Basics
-* Complete RegEx
+### [Protocols](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Classes/Protocols.md)
+* Airthmetic
+* Comparison
+* Print
+* Collection
+* Sequence
+* Iteration
+* Hashing
+* Content Managers
+* Exceptions
 
-### [Testing](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-to-Computer-Science.md)
-* Theory of Testing
-* Testing Basics
-* Complete Testing
+## [Data Structures](...)
+### [Basics](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Basic%20Operations.md)
+* Recursive Structures
+* Main Operations
 
-### [Logging](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-BASH-Environment.md)
-* Theory of Logging
-* Logging Basics
-* Complete Logging
+### [Linked List](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Linked%20List.md)
+* Types of Linked Lists
+* Linked List Operations
 
-### [Request](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-git-Environment.md)
-* Theory of Request
-* Request Basics
-* Complete Requests
+### [Tree](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Tree.md)
+* Types of Trees
+* Tree Operations
 
-### [Database](https://github.com/ByteAcademy-Curriculum/Python-Full-Stack/blob/master/Slides/Phase%201/Week%201/Slides/The-VS-Code-Environment.md)
-* Thery of Database
-* Database Basics
-* Complete Databases
+### [Hash Table](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Hash%20Table.md)
+* Types of Hash Tables
+* Hash Table Operations
+
+### [Graph](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Data-Structures/Graph.md)
+* Types of Graphs
+* Graph Operations
+
+## [Python Internals](...)
+### [Data Types](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Python-Internals/Data%20Type%20Implementations.md)
+* Basic Types
+* List, Tuple
+* Dict, Set
+
+### [Classes and Modules](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Python-Internals/Data%20Manipulation%20Implementations.md)
+* Class
+* Module
+
+### [Putting It All Together](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%202/Slides/Python-Internals/Putting%20It%20All%20Together.md)
+* Python Step By Step
