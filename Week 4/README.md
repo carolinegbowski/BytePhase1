@@ -1,13 +1,26 @@
-# Phase 1 - Week 4
+# Dealing With Data
 
-## [Dealing with Data](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%204/Dealing%20With%20Data)
+## [Data Collection](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%204/Dealing%20With%20Data/Slides/Data-Collection.md)
+### Creating, Reading, and Writing Data
+* Introduction
+* Creating a Dataset
+* Reading from CSV and Pickle
+* Writing to CSV and Pickle
 
-### [Data Collection](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%204/Dealing%20With%20Data/Slides/Data-Collection.md)
-* a
-* b
+### Basic Dataset Operations
+* Viewing the Dataset
+* Data Filters
+* Data Queries
 
-### [Data Sanitization](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%204/Dealing%20With%20Data/Slides/Data-Sanitization.md)
-* c
+### Creating Data Views
+* Data Aggregation and Grouping
+* Data Subsets
+* Data Merging
 
-### [Data Visualization](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%204/Dealing%20With%20Data/Slides/Data-Visualization.md)
-* d
+## [Data Cleaning](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%204/Dealing%20With%20Data/Slides/Data-Sanitization.md)
+### e
+* f
+
+## [Data Visualization](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%204/Dealing%20With%20Data/Slides/Data-Visualization.md)
+### g
+* h
