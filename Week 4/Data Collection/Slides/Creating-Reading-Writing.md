@@ -4,7 +4,7 @@
 
 ### Pandas 
 * The most preferred way to work with Data in Python is using the Pandas package, which stands for "Python Data Analysis Library".
-* Pandas can take data from a CSV, Excel, or Pickle file, or an SQL Database, and create a Python object containing rows and columns called a DataFrame.
+* Pandas can read data from a CSV, Excel, or Pickle file, or an SQL Database, and create a Python object containing rows and columns called a DataFrame.
 * A DataFrame is a table very similar to the tables found in Excel or R.
 * Working with DataFrames is much easier and more efficient than than working with lists and dictionaries when doing large scale data operations. 
 * Many common and complex data processing tasks are abstracted away into efficient Pandas functions.
