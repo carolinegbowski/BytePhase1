@@ -14,7 +14,7 @@
 
 ### [Creating Views](https://github.com/ByteAcademyCo/Phase1-Python/blob/Week4/Week%204/Data%20Collection/Slides/Creating-Views.md)
 * Data Aggregation and Grouping
-* Data Subsets
+* Modifying a DataFrame
 * Data Merging
 
 ## [Data Cleaning](https://github.com/ByteAcademyCo/Phase1-Python/blob/Week4/Week%204/Data%20Cleaning/)
