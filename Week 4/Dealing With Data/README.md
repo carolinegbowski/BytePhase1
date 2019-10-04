@@ -1,12 +1,23 @@
 # Dealing With Data
 
 ## [Data Collection](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%204/Dealing%20With%20Data/Slides/Data-Collection.md)
-### a
-* b
-### c
-* d
+### Creating, Reading, and Writing Data
+* Introduction
+* Creating a Dataset
+* Reading from CSV and Pickle
+* Writing to CSV and Pickle
 
-## [Data Sanitization](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%204/Dealing%20With%20Data/Slides/Data-Sanitization.md)
+### Basic Dataset Operations
+* Viewing the Dataset
+* Data Filters
+* Data Queries
+
+### Creating Data Views
+* Data Aggregation and Grouping
+* Data Subsets
+* Data Merging
+
+## [Data Cleaning](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%204/Dealing%20With%20Data/Slides/Data-Sanitization.md)
 ### e
 * f
 
