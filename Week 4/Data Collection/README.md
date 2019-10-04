@@ -1,6 +1,8 @@
-# Dealing With Data
+# Phase 1 - Week 1
 
-## [Data Collection](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%204/Dealing%20With%20Data/Slides/Data-Collection.md)
+## [Dealing With Data](https://github.com/ByteAcademyCo/Phase1-Python/tree/Week4/Week%204/Dealing%20With%20Data)
+
+### [Data Collection](https://github.com/ByteAcademyCo/Phase1-Python/blob/Week4/Week%204/Dealing%20With%20Data/Slides/Data-Collection.md)
 ### Creating, Reading, and Writing Data
 * Introduction
 * Creating a Dataset

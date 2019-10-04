@@ -48,8 +48,14 @@ Students should be fully comfortable with the Python programming language after 
 * RegEx
 
 
-## [Week 4](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%204)
-### [Dealing With Data](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%204/Dealing%20With%20Data)
-* Data Collection
-* Data Sanitization
-* Data Visualization
+## [Week 4](https://github.com/ByteAcademyCo/Phase1-Python/tree/Week4/Week%204)
+### [Data Collection](https://github.com/ByteAcademyCo/Phase1-Python/tree/Week4/Week%204/Data%20Collection)
+* Creating, Reading, and Writing Data
+* Basic Dataset Operations
+* Creating Data Views
+
+### [Data Cleaning](https://github.com/ByteAcademyCo/Phase1-Python/tree/Week4/Week%204/Data%20Cleaning)
+* a
+
+### [Data Visualization](https://github.com/ByteAcademyCo/Phase1-Python/tree/Week4/Week%204/Data%20Visualization)
+* b
