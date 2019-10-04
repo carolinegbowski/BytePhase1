@@ -1,7 +1,7 @@
 # Data Collection
 
 ## [Creating, Reading, and Writing Data](https://github.com/ByteAcademyCo/Phase1-Python/blob/Week4/Week%204/Data%20Collection/Slides/Creating-Reading-Writing.md)
-* Introduction
+* Introduction to Pandas and Numpy
 * Creating a Dataset
 * Reading from CSV and Pickle
 * Writing to CSV and Pickle
