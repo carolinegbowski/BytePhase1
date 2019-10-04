@@ -4,7 +4,7 @@
 
 ## Goals
 
-Students should be fully comfortable with the Python programming language after completion of this phase. This ranges from leveraging the built-in syntax and semantics that make up the language, as well as understanding the libraries to build complex applications designed to solve a broad range of problems.
+Students should be fully comfortable with the Python programming language after completion of this phase. This ranges from understanding the built-in syntax and semantics to leveraging powerful libraries to build complex applications designed to solve a broad range of problems.
 
 ## [Week 1](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%201)
 ### [Introduction and Environment](https://github.com/ByteAcademyCo/Phase1-Python/tree/master/Week%201/Introduction%20and%20Environment)
