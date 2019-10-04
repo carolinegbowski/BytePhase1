@@ -52,7 +52,7 @@ Students should be fully comfortable with the Python programming language after 
 ### [Data Collection](https://github.com/ByteAcademyCo/Phase1-Python/tree/Week4/Week%204/Data%20Collection)
 * Creating, Reading, and Writing Data
 * Basic Dataset Operations
-* Creating Data Views
+* Creating Views
 
 ### [Data Cleaning](https://github.com/ByteAcademyCo/Phase1-Python/tree/Week4/Week%204/Data%20Cleaning)
 * a
