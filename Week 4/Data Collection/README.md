@@ -1,6 +1,6 @@
 # Data Collection
 
-## [Creating, Reading, and Writing Data](https://github.com/ByteAcademyCo/Phase1-Python/blob/Week4/Week%204/Data%20Collection/Slides/Data-Collection.md)
+## [Creating, Reading, and Writing Data](https://github.com/ByteAcademyCo/Phase1-Python/blob/Week4/Week%204/Data%20Collection/Slides/Creating-Reading-Writing.md)
 * Introduction
 * Creating a Dataset
 * Reading from CSV and Pickle
@@ -11,7 +11,7 @@
 * Data Filters
 * Data Queries
 
-## [Creating Data Views](https://github.com/ByteAcademyCo/Phase1-Python/blob/Week4/Week%204/Data%20Collection/Slides/Basic-Dataset-Operations.md)
+## [Creating Data Views](https://github.com/ByteAcademyCo/Phase1-Python/blob/Week4/Week%204/Data%20Collection/Slides/Creating-Data-Views.md)
 * Data Aggregation and Grouping
 * Data Subsets
 * Data Merging
