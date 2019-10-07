@@ -264,7 +264,7 @@ print(sales_df)
 * When using ```pd.read_csv()```, Pandas does not read the index of the ```DataFrame``` by default.
 * If the ```csv``` file contains indeces, we need to specify this explicity through the ```index_col``` argument. 
 * The ```index_col``` argument tells you which column of the ```csv``` file to use as the row labels (or indeces) of the ```DataFrame```.
-* Typically ```index_col``` is set to ```0``` as the first column of the csv file in most cases.
+* Typically ```index_col``` is set to ```0``` as the first column of the csv file.
 
 ```python
 sales_df = pd.read_csv("./Sales Data.csv", index_col=0)
