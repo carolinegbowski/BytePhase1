@@ -295,7 +295,8 @@ print(sales_df)
 4        5          14
 ```
 
-* The ```usecols``` argument results in much faster parsing time and lower memory usage. 
+* The ```usecols``` argument results in much faster parsing time and lower memory usage.
+* It is recommended to use the ```usecols``` argument for large datasets and only read in the columns required.
 
 ## Reading and Writing from a Pickle
 
