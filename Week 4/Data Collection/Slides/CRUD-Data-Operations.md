@@ -71,9 +71,9 @@ sales_data_dict = {
     'Monitors': [6, 8, 10, 9, 15]
 }
 
-sales_data_df = pd.DataFrame(data=sales_data_dict)
+sales_df = pd.DataFrame(data=sales_data_dict)
 
-print(sales_data_df)
+print(sales_df)
    Laptops  Headphones  Monitors
 0        4          10      6
 1        3          13      8
@@ -87,14 +87,14 @@ print(sales_data_df)
 * It is recommended to include ```_df``` as a suffix to the name of a ```DataFrame``` to be explicit on the type of this data object.
 
 #### Indexing
-* The ```sales_data_df``` ```DataFrame``` does not display the months for the sales. We can remedy this by adding a new column ```Month``` to the DataFrame from a list:
+* The ```sales_df``` ```DataFrame``` does not display the months for the sales. We can remedy this by adding a new column ```Month``` to the DataFrame from a list:
 
 ```python
 
 months = ['January', 'February', 'March', 'April', 'May']
-sales_data_df['Month'] = months
+sales_df['Month'] = months
 
-print(sales_data_df)
+print(sales_df)
    Laptops  Headphones  Mouse     Month
 0        4          10      6   January
 1        3          13      8  February
@@ -113,9 +113,9 @@ sales_data_dict = {
 }
 months = ['January', 'February', 'March', 'April', 'May']
 
-sales_data_df = pd.DataFrame(data=sales_data_dict, index=months)
+sales_df = pd.DataFrame(data=sales_data_dict, index=months)
 
-print(sales_data_df)
+print(sales_df)
           Laptops  Headphones  Mouse
 January         4          10      6
 February        3          13      8
@@ -139,9 +139,9 @@ sales_data_list = [
 sales_data_columns = ['Laptops', 'Headphones', 'Monitors']
 months = ['January', 'February', 'March', 'April', 'May']
 
-sales_data_df = pd.DataFrame(data=sales_data_list, columns=sales_data_columns, index=months)
+sales_df = pd.DataFrame(data=sales_data_list, columns=sales_data_columns, index=months)
 
-print(sales_data_df)
+print(sales_df)
           Laptops  Headphones  Mouse
 January         4          10      6
 February        3          13      8
@@ -158,7 +158,7 @@ May             5          14     15
 * The series object has a number of attributes. Two important attributes are the ```dtype``` and the ```name```. 
 * The dtype is the type of the underlying data contained in the Series array.
 * The name is the name of the Series array, which is also the name of the column in a Pandas ```DataFrame```. 
-* * All column of a Pandas ```DataFrame``` are ```Series```. For example:
+* All columns of a Pandas ```DataFrame``` are ```Series```. For example:
 
 ```python
 sales_data_dict = {
@@ -168,9 +168,9 @@ sales_data_dict = {
 }
 months = ['January', 'February', 'March', 'April', 'May']
 
-sales_data_df = pd.DataFrame(data=sales_data_dict, index=months)
+sales_df = pd.DataFrame(data=sales_data_dict, index=months)
 
-print(sales_data_df['Laptops'])
+print(sales_df['Laptops'])
 January     4
 February    3
 March       1
@@ -178,7 +178,7 @@ April       7
 May         5
 Name: Laptops, dtype: int64
 
-type(sales_data_df['Laptops'])
+type(sales_df['Laptops'])
 <class 'pandas.core.series.Series'>
 ```
 
@@ -200,9 +200,9 @@ sales_data_dict = {
     'Monitors': monitor_sales_series
 }
 
-sales_data_df = pd.DataFrame(data=sales_data_dict)
+sales_df = pd.DataFrame(data=sales_data_dict)
 
-print(sales_data_df)
+print(sales_df)
    Laptops  Headphones  Monitors
 0        4          10         6
 1        3          13         8
@@ -215,9 +215,9 @@ print(sales_data_df)
 ```python
 
 months = ['January', 'February', 'March', 'April', 'May']
-sales_data_df.index = months
+sales_df.index = months
 
-print(sales_data_df)
+print(sales_df)
           Laptops  Headphones  Monitors
 January         4          10         6
 February        3          13         8
