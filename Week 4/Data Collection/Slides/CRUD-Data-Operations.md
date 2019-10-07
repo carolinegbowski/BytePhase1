@@ -228,8 +228,158 @@ May             5          14        15
 
 
 ### Testing
-* Often times testing code on a large dataset can take multiple hours.
+* Testing code on a large dataset can take multiple hours.
 * It is recommended to create a Pandas ```DataFrame``` for code creation and unit testing. 
 
-## Reading from CSV and Pickle
-## Writing to CSV and Pickle
+## Reading and Writing from a CSV
+
+* Pandas makes it easy to read and write data from many different file formats. 
+*  we can use Pandas ```to_csv()``` method to save an existing ```DataFrame``` that is already in memory.
+* ```python to_csv()``` is a method of a ```DataFrame``` object, so we can call it directly from our ```DataFrame```:
+
+```python
+sales_df.to_csv("./Sales Data.csv")
+```
+
+* We can specify if we would like to save the ```index``` values of our ```DataFrame``` by using the optional ```index``` argument. By default, this is set to ```True```:
+```python
+sales_df.to_csv("./Sales Data.csv", index=False)
+```
+
+* We can use Pandas ```pd.read_csv()``` method to read a ```DataFrame``` into memory.
+* ```python pd.read_csv()``` is **not** a method of a ```DataFrame``` object, but instead we call it through the Pandas module:
+
+```python
+sales_df = pd.read_csv("./Sales Data.csv")
+
+print(sales_df)
+  Unnamed: 0  Laptops  Headphones  Monitors
+0    January        4          10         6
+1   February        3          13         8
+2      March        1           6        10
+3      April        7           8         9
+4        May        5          14        15
+```
+
+* When using ```pd.read_csv()```, Pandas does not read the index of the ```DataFrame``` by default.
+* If the ```csv``` file contains indeces, we need to specify this explicity through the ```index_col``` argument. 
+* The ```index_col``` argument tells you which column of the ```csv``` file to use as the row labels (or indeces) of the ```DataFrame```.
+* Typically ```index_col``` is set to ```0``` as the first column of the csv file in most cases.
+
+```python
+sales_df = pd.read_csv("./Sales Data.csv", index_col=0)
+
+print(sales_df)
+          Laptops  Headphones  Monitors
+January         4          10         6
+February        3          13         8
+March           1           6        10
+April           7           8         9
+May             5          14        15
+```
+
+* Three important arguments to the ```pd.read_csv()``` method are the ```names```, ```sep```, and ```usecols```.
+* The ```names``` arugment specifies a **list** of column names to use for the ```DataFrame```, assuming the ```csv``` file does not contain any column names.
+* The ```sep``` argument specifies a **string** which represents the delimiter to use when parsing the ```csv``` file into a ```DataFrame```. 
+* The ```usecols``` argument specifies a **list** of strings or integers that represent the column names or numbers you would like to import. For example:
+
+```python
+sales_df = pd.read_csv("./Sales Data.csv", sep=",", usecols=['Laptops', 'Headphones'])
+
+print(sales_df)
+   Laptops  Headphones
+0        4          10
+1        3          13
+2        1           6
+3        7           8
+4        5          14
+```
+
+* The ```usecols``` argument results in much faster parsing time and lower memory usage. 
+
+## Reading and Writing from a Pickle
+
+### Introduction to Pickle
+
+* Pickle is a Python module that allows for serializing and de-serializing of a Python object.
+* Pickling is a way to covert a python object (list, dict, etc.) into a character stream (serialization). 
+* The character stream contains all the information neccesary to reconstruct the object in another python script.
+* To import Pickle, you can include the following line in your python code:
+
+```python
+import pickle
+```
+
+* You can save any Python object using the `dump` method in `pickle`.
+
+```python
+# Pickling the Sales list into a Pickle File
+laptop_sales_list = [4, 3, 1, 7, 5]
+
+laptop_sales_file = open("./laptop_sales.pkl", 'wb')
+pickle.dump(laptop_sales_list, laptop_sales_file)
+laptop_sales_file.close()
+```
+
+* You can read any Python object using the `load` method in `pickle`.
+```python
+# Loading the Sales list from a Pickle File
+laptop_sales_file = open("./laptop_sales.pkl", 'r')
+laptop_sales_list = pickle.load("./laptop_sales.pkl")
+laptop_sales_file.close()
+print(laptop_sales_list)
+```
+
+### Writing Pickle files with Pandas
+
+* Although it is possible to read and write a `DataFrame` using the `pickle` module, Pandas offers a built in method to read and write a `DataFrame` using `pickle`.
+* You can save a `DataFrame` using the `DataFrame` method `to_pickle()`
+* `to_pickle()` is a method of a `DataFrame` object, so we can call it directly from our `DataFrame` in memory:
+
+```python
+sales_data_dict = {
+    'Laptops' : [4, 3, 1, 7, 5],
+    'Headphones' : [10, 13, 6, 8, 14],
+    'Monitors': [6, 8, 10, 9, 15]
+}
+months = ['January', 'February', 'March', 'April', 'May']
+
+sales_df = pd.DataFrame(data=sales_data_dict, index=months)
+
+sales_df.to_pickle("Sales Data.pkl")
+```
+
+* If we want to save only specific columns of the DataFrame, we can subset the data by passing in a list of column names to the `DataFrame`:
+
+```python
+sales_data_dict = {
+    'Laptops' : [4, 3, 1, 7, 5],
+    'Headphones' : [10, 13, 6, 8, 14],
+    'Monitors': [6, 8, 10, 9, 15]
+}
+months = ['January', 'February', 'March', 'April', 'May']
+
+sales_df = pd.DataFrame(data=sales_data_dict, index=months)
+
+sales_df[['Laptops','Headphones']].to_pickle("Sales Data Subset.pkl")
+```
+
+* Pickling a `DataFrame` serliazes the object, so we save the object exactly how it was in memory.
+* We can use Pandas ```pd.read_pickle()``` method to read a ```DataFrame``` into memory.
+* ```python pd.read_pickle()``` is **not** a method of a ```DataFrame``` object, but instead we call it through the Pandas module:
+
+```python
+
+sales_df = pd.read_pickle("Sales Data.pkl")
+
+print(sales_df)
+          Laptops  Headphones  Monitors
+January         4          10         6
+February        3          13         8
+March           1           6        10
+April           7           8         9
+May             5          14        15
+```
+
+* One advantage of pickling is that it has a faster read and write times than working with CSV files.
+* One disadvantage of pickling is that it takes more disk space to save the `DataFrame` in comparison with a `csv` file.
