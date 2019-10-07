@@ -1,5 +1,5 @@
 
-# Exercise on Functional programming and Stacks/Queues
+# Exercise on Functional programming
 
 **You are not allowed using recursion or loops. Only use map, filter or reduce**
 
