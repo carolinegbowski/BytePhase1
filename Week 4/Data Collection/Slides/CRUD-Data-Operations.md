@@ -328,7 +328,9 @@ laptop_sales_file.close()
 laptop_sales_file = open("./laptop_sales.pkl", 'r')
 laptop_sales_list = pickle.load("./laptop_sales.pkl")
 laptop_sales_file.close()
+
 print(laptop_sales_list)
+[4, 3, 1, 7, 5]
 ```
 
 ### Writing Pickle files with Pandas
