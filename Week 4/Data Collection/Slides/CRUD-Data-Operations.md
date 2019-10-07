@@ -396,5 +396,5 @@ April           7           8         9
 May             5          14        15
 ```
 
-* One advantage of pickling is that it has a faster read and write times than working with CSV files.
-* One disadvantage of pickling is that it takes more disk space to save the `DataFrame` in comparison with a `csv` file.
+* One advantage of pickling is that it has significantly faster read and write times than working with CSV files.
+* One disadvantage of pickling is that it takes more disk space to save the `DataFrame` in comparison with saving a `csv` file.
