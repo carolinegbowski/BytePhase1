@@ -235,7 +235,7 @@ May             5          14        15
 
 * Pandas makes it easy to read and write data from many different file formats. 
 *  we can use Pandas ```to_csv()``` method to save an existing ```DataFrame``` that is already in memory.
-* ```python to_csv()``` is a method of a ```DataFrame``` object, so we can call it directly from our ```DataFrame```:
+* ```to_csv()``` is a method of a ```DataFrame``` object, so we can call it directly from our ```DataFrame```:
 
 ```python
 sales_df.to_csv("./Sales Data.csv")
