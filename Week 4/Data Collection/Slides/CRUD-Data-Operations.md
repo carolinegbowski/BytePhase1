@@ -256,7 +256,7 @@ sales_df.to_csv("./Sales Data.csv", columns=['Laptops','Headphones'])
 ### Reading CSV Files with Pandas
 
 * We can use Pandas ```pd.read_csv()``` method to read a ```DataFrame``` into memory.
-* ```python pd.read_csv()``` is **not** a method of a ```DataFrame``` object, but instead we call it through the Pandas module:
+* ```pd.read_csv()``` is **not** a method of a ```DataFrame``` object, but instead we call it through the Pandas module:
 
 ```python
 sales_df = pd.read_csv("./Sales Data.csv")
