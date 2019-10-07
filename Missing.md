@@ -14,3 +14,10 @@ Keywords  | .          | .         | .          | .
 * Multiple inheritane (method resolution order (mro) and the diamond problem)
 * Bytecode & the interpreter
 * Garbage collection
+
+
+## To add
+* Python resources section - (specific ```docs``` links)
+* Complexity theory section - motivate complexity theory with fibonacci
+* Python internals section - Python programs are simply a dictionary with keys as strings (all identifiers) and values as references to objects
+* Python cheatsheat reference at end of each section? Especially for the syntax section 1
