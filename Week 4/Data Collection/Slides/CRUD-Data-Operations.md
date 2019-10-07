@@ -311,7 +311,7 @@ print(sales_df)
 import pickle
 ```
 
-* You can save any Python object using the `dump` method in `pickle`.
+* You can save any Python object using the `dump` method in the `pickle` module.
 
 ```python
 # Pickling the Sales list into a Pickle File
@@ -322,7 +322,7 @@ pickle.dump(laptop_sales_list, laptop_sales_file)
 laptop_sales_file.close()
 ```
 
-* You can read any Python object using the `load` method in `pickle`.
+* You can read any Python object using the `load` method in the `pickle` module.
 ```python
 # Loading the Sales list from a Pickle File
 laptop_sales_file = open("./laptop_sales.pkl", 'r')
