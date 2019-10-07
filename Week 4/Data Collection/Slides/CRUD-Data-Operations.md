@@ -228,7 +228,7 @@ May             5          14        15
 
 
 ### Testing
-* Testing code on a large dataset can take multiple hours.
+* Testing code on a large dataset can take multiple hours of compute time.
 * It is recommended to create a Pandas ```DataFrame``` for code creation and unit testing. 
 
 ## Reading and Writing from a CSV
