@@ -336,7 +336,7 @@ print(laptop_sales_list)
 ### Writing Pickle files with Pandas
 
 * Although it is possible to read and write a `DataFrame` using the `pickle` module, Pandas offers a built in method to read and write a `DataFrame` using `pickle`.
-* You can save a `DataFrame` using the `DataFrame` method `to_pickle()`
+* You can save a `DataFrame` using the `DataFrame` method `to_pickle()`.
 * `to_pickle()` is a method of a `DataFrame` object, so we can call it directly from our `DataFrame` in memory:
 
 ```python
@@ -352,7 +352,7 @@ sales_df = pd.DataFrame(data=sales_data_dict, index=months)
 sales_df.to_pickle("Sales Data.pkl")
 ```
 
-* If we want to save only specific columns of the DataFrame, we can subset the data by passing in a list of column names to the `DataFrame`:
+* If we want to save only specific columns of the DataFrame, we can subset the data by passing in a list of column names (or column numbers) to the `DataFrame`:
 
 ```python
 sales_data_dict = {
