@@ -21,3 +21,9 @@ Keywords  | .          | .         | .          | .
 * Complexity theory section - motivate complexity theory with fibonacci
 * Python internals section - Python programs are simply a dictionary with keys as strings (all identifiers) and values as references to objects
 * Python cheatsheat reference at end of each section? Especially for the syntax section 1
+
+## Slide Rendering Software Inquiry
+* Reveal
+* Jupyter2Slide
+* Hacker slides
+* Markdown viewer
