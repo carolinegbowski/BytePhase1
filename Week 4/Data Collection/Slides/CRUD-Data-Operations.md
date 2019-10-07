@@ -87,7 +87,7 @@ print(sales_df)
 * It is recommended to include ```_df``` as a suffix to the name of a ```DataFrame``` to be explicit on the type of this data object.
 
 #### Indexing
-* The ```sales_df``` ```DataFrame``` does not display the months for the sales. We can remedy this by adding a new column ```Month``` to the DataFrame from a list:
+* The ```sales_df``` ```DataFrame``` does not display the months for the sales. We can fix this by adding a new column ```Month``` to the DataFrame from a list:
 
 ```python
 
