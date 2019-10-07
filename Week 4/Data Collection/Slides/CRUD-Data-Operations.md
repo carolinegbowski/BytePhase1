@@ -233,6 +233,8 @@ May             5          14        15
 
 ## Reading and Writing from a CSV
 
+### Writing CSV Files with Pandas
+
 * Pandas makes it easy to read and write data from many different file formats. 
 *  we can use Pandas ```to_csv()``` method to save an existing ```DataFrame``` that is already in memory.
 * ```to_csv()``` is a method of a ```DataFrame``` object, so we can call it directly from our ```DataFrame```:
@@ -251,6 +253,7 @@ sales_df.to_csv("./Sales Data.csv", index=False)
 sales_df.to_csv("./Sales Data.csv", columns=['Laptops','Headphones'])
 ```
 
+### Reading CSV Files with Pandas
 
 * We can use Pandas ```pd.read_csv()``` method to read a ```DataFrame``` into memory.
 * ```python pd.read_csv()``` is **not** a method of a ```DataFrame``` object, but instead we call it through the Pandas module:
@@ -374,6 +377,9 @@ sales_df[['Laptops','Headphones']].to_pickle("Sales Data Subset.pkl")
 ```
 
 * Pickling a `DataFrame` serliazes the object, so we save the object exactly how it was in memory.
+
+### Reading Pickle files with Pandas
+
 * We can use Pandas ```pd.read_pickle()``` method to read a ```DataFrame``` into memory.
 * ```python pd.read_pickle()``` is **not** a method of a ```DataFrame``` object, but instead we call it through the Pandas module:
 
