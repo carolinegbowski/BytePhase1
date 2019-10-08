@@ -149,7 +149,7 @@ May            20          14     15
 
 * A Pandas ```Series``` is a one-dimensional array capable of holding data of any type (integer, string, float, python objects, etc).
 * A `Series` is a dynamic container for it's size and type.
-* The benefit of ```Series``` over python arrays is you have efficient Pandas functions that can be operated on ```Series``` to do specific data calculations (ex: ```df.mean()```).
+* The benefit of ```Series``` over python arrays is you have Pandas functions that can be operated on ```Series``` to do specific data calculations (ex: ```df.mean()```).
 * The series object has a number of attributes. Two important attributes are the ```dtype``` and the ```name```. 
 * The dtype is the type of the underlying data contained in the Series array.
 * The name is the name of the Series array, which is also the name of the column in a Pandas ```DataFrame```. 
