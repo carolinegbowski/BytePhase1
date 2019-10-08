@@ -36,7 +36,7 @@ import pandas as pd
 * One easy ways to install Numpy is through Pip. In your terminal, you can run the following commands:
 
 ##### Pip
-```pip install numpy```
+```pip3 install numpy```
 
 #### Import 
 
