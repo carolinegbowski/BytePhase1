@@ -14,7 +14,7 @@
 * One easy way to install pandas is through Pip. In your terminal, you can run the following command:
 
 ##### Pip
-```pip install pandas```
+```pip3 install pandas```
 
 #### Import 
 
