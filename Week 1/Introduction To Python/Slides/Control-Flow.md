@@ -47,7 +47,18 @@ print(f'{a} is less than {b}') if a < b else print(f'{b} is less than {a}') if b
 ```
 
 ### If/if vs if/else
-
+* If only one block should be excuted, use if/elif
+* If possibly more than 1 block should be executed, use if/if
+```Python
+a = 1
+b = 2
+if (a < b):
+  print(f'{a} is less than {b}')
+if (a > b):
+  print(f'{a} is greater than {b}')
+if (a == b):
+  print(f'{a} equals {b}')
+```
 
 ## Iteration
 ### Basics
