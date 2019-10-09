@@ -31,8 +31,22 @@ else:
   print(f'{a} equals {b}')
 ```
 
-### If/if vs if/else
 ### Ternary Operator
+* Can write if/else in one line if expressions are relatively simple
+```Python
+a = 1
+b = 2
+# [on_true] if [expression] else [on_false]
+print(f'{a} is less than {b}') if a < b else print(f'{b} is less than {a}')
+```
+* Can combine these, but not recommended
+```Python
+a = 1
+b = 2
+print(f'{a} is less than {b}') if a < b else print(f'{b} is less than {a}') if b < a else print(f'{a} equals {b}')
+```
+
+### If/if vs if/else
 
 
 ## Iteration
