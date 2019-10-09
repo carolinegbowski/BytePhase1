@@ -62,9 +62,45 @@ if (a == b):
 
 ## Iteration
 ### Basics
+* Iteration is the repetition of a process in order to generate a sequence of outcomes
+```Python
+x = 1
+while x < 5:
+  x = x + 1
+  print(f'x is {x}')
+```
+
 ### While vs For loop
+* Preferred way of iteration in Python is using ```for```
+```Python
+for(x in range(0, 5, 1)):
+  print(f'x is {x}')
+for(x in range(5)):
+  print(f'x is {x}')
+```
+* Range parameters behave the same as slicing
+
 ### Iteration over range vs set
+* Both have valid use cases
+```Python
+L = [1, 2, 3]
+for element in L:
+  print(element)
+for index in range(len(L)):
+  print(L[index])
+```
+
 ### Comprehensions
-* Basics
-* Set, dict comprehension
-* Generator comprehensions
+* An efficient way to generate lists (and other containers) using iteration
+```Python
+L_bad = []
+for i in range(10):
+  if i % 2 == 0:
+    L.append(i)
+L_good = [i for i in range(10) if i % 2 == 0]
+```
+* Can also be done with dict and set
+```Python
+s = {i for i in range(10) if i % 2 == 0}
+d = {i:i for i in range(10) if i % 2 == 0}
+```
