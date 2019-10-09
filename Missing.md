@@ -17,6 +17,7 @@ Keywords  | .          | .         | .          | .
 
 
 ## To add
+* Generators?
 * Python resources section - (specific ```docs``` links)
 * Complexity theory section - motivate complexity theory with fibonacci
 * Python internals section - Python programs are simply a dictionary with keys as strings (all identifiers) and values as references to objects
