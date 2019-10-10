@@ -10,7 +10,7 @@ b = f(a)
 ```
 
 ### Formal Definition
-![bla](/Images/test.png)
+![test.png](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%201/Introduction%20To%20Python/Slides/Images/test.png)
 * keywords
 * function name
 * parameters and arguments
