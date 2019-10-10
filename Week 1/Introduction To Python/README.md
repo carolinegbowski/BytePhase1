@@ -77,8 +77,9 @@
 
 ## [Functions](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%201/Introduction%20To%20Python/Slides/Functions.md)
 ### Basics
-* Python logic unit abstraction model
-* Formally define: keywords, function name/parameters/arguments/body
+* Python Memory Manipulation
+* Formal Definition
+
 ### Scope
 * Leaky
 * LEGB (global/nonlocal)
