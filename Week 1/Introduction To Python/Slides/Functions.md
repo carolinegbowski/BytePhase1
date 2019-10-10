@@ -1,8 +1,20 @@
 # Functions
 
 ## Basics
-### Python logic unit abstraction model
-### Formally define: keywords, function name/parameters/arguments/body
+### Python Memory Manipulation
+```Python
+a = 1
+def f(x):
+ return x + 1
+b = f(a)
+```
+
+### Formal Definition
+![bla](image.png)
+* keywords
+* function name
+* parameters and arguments
+* body
 
 ## Scope
 ### Leaky
