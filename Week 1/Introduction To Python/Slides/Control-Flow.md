@@ -64,7 +64,7 @@ if (a == b):
 ### Basics
 * Iteration is the repetition of a process in order to generate a sequence of outcomes
 ```Python
-x = 1
+x = 0
 while x < 5:
   x = x + 1
   print(f'x is {x}')
@@ -83,7 +83,7 @@ for(x in range(5)):
 ### Iteration over range vs set
 * Both have valid use cases
 ```Python
-L = [1, 2, 3]
+L = [0, 1, 2, 3, 4]
 for element in L:
   print(element)
 for index in range(len(L)):
