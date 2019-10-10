@@ -10,7 +10,7 @@ b = f(a)
 ```
 
 ### Formal Definition
-![bla](image.png)
+![bla](test.png)
 * keywords
 * function name
 * parameters and arguments
