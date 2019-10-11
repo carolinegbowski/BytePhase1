@@ -9,9 +9,9 @@
 
 ### Main Operations
 * Create
-* Insert
+* Search (Read)
+* Insert (Update)
 * Delete
-* Search
 
 ## [Linked List](https://github.com/ByteAcademy-Curriculum/Data-Science/blob/master/Slides/Phase%201/Week%201/Slides/Introduction-To-Python/Data-Types.md)
 ### Types of Linked Lists
