@@ -32,7 +32,7 @@ In this project you will build a version of the classic board game Battleship!
 
 * It should have methods for guessing an attack location. What other methods will it need? What should `__init__` set? What properties will this object need to have?
 
-#### Considerations
+#### Open-Ended Questions
 
 * What data structures are you using to store the board? The ships?
   * What performance tradeoffs did you consider when considering which data structures to use?
@@ -41,20 +41,7 @@ In this project you will build a version of the classic board game Battleship!
 
 * Will there be a visual component? If so, how will you dislpay information to the user?
 
-#### Ideas for expanding the game:
+* If you were to expand this with multiple ships of different dimensions, how would this be done? Be as specific as possible without writing code
 
-* You may need to create subclasses of your original gameboard class to implement these features.
+* If you were to expand this to be multiple players, how would this be done? Be as specific as possible without writing code
 
-* Have multiple ships, and ships that are of varying lengths.
-
-    * In the real game of battleship, the grid is 11x11 and the ships are one tile wide, but multiple tiles long. There is a 1x2 ship, two 1x3 ships, a 1x4 ship, and a 1x5 ship.
-
-* Allow two players to play.
-
-    * Either place the ships randomly or create an interface for players to place their own ships.
-
-    * Allow the players to take turns guessing until one has sunk all of the others ships. Each turn they should see a representation of what they know about the other's board (where they have missed and hit) and a representation of their own board that shows ship locations and where misses and hits from the other player have happened.
-
-* Create a computer opponent that guesses randomly.
-
-* Improve the computer opponent's strategy
