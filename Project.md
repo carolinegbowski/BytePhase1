@@ -39,6 +39,7 @@ In this project you will build a version of the classic board game Battleship!
   
 * How are you modularizing your code? Why is a given code in Model versus View versus Controller?
 
+* Will there be a visual component? If so, how will you dislpay information to the user?
 
 #### Ideas for expanding the game:
 
