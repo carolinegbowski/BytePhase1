@@ -32,6 +32,14 @@ In this project you will build a version of the classic board game Battleship!
 
 * It should have methods for guessing an attack location. What other methods will it need? What should `__init__` set? What properties will this object need to have?
 
+#### Considerations
+
+* What data structures are you using to store the board? The ships?
+  * What performance tradeoffs did you consider when considering which data structures to use?
+  
+* How are you modularizing your code? Why is a given code in Model versus View versus Controller?
+
+
 #### Ideas for expanding the game:
 
 * You may need to create subclasses of your original gameboard class to implement these features.
