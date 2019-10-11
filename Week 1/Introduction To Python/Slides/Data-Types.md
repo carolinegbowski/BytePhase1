@@ -95,7 +95,7 @@ id(x)
 ### Feature - Indexable
 ```Python
 x = "hello world"
-x[1]
+print(x[1]) # 'e'
 x[1] = 'i' # TypeError
 ```
 ### Feature - Iteration
