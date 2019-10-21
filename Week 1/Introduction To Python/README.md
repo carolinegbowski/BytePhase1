@@ -71,6 +71,7 @@
 * If/if vs if/elif
 * Ternary Operator
 ### Iteration
+* Basics
 * While vs For Loop
 * Iteration over range vs set
 * Comprehensions
