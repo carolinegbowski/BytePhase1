@@ -96,7 +96,7 @@ for index in range(len(L)):
 L_bad = []
 for i in range(10):
   if i % 2 == 0:
-    L.append(i)
+    L_bad.append(i)
 L_good = [i for i in range(10) if i % 2 == 0]
 ```
 * Can also be done with dict and set
