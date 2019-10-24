@@ -17,7 +17,7 @@
 * ls
 * cd, pwd
 * mkdir, rmdir, rm
-* echo, cat
+* touch, echo, cat
 
 ## The git Environment
 ### Source Control
