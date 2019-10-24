@@ -1,0 +1,41 @@
+# Functions
+
+## Basics
+### Python Memory Manipulation
+```Python
+a = 1
+def f(x):
+ return x + 1
+b = f(a)
+```
+
+### Formal Definition
+![test.png](https://github.com/ByteAcademyCo/Phase1-Python/blob/master/Week%201/Introduction%20To%20Python/Slides/Images/test.png)
+* keywords
+* function name
+* parameters and arguments
+* body
+
+## Scope
+### Leaky
+### LEGB (global/nonlocal)
+
+## Functional Programming
+### Lambda functions
+### Map and Filter
+
+## Advanced Functions
+### First class functions
+```Python
+ def adder(n):
+  def add_n(x):
+   return n+x
+  return add_n
+ add5 = adder(5)
+ add10 = adder(10)
+ print(add5(3)); print(add5(10))
+ print(add10(3)); print(add10(3))
+ ```
+ 
+### Args/Kwargs
+### Decorators
