@@ -21,12 +21,13 @@ class Account:
         # etc.
 
     def save(self):
-    """ Insert a new row into the database if id is not set, update the
+    """Insert a new row into the database if id is not set, update the
     row with that id if it is set """
         if self.id is not None:
             self._insert()
         else:
             self._update()
+        pass
 
     def _insert(self):
         """ open a database connection, insert a row into the database

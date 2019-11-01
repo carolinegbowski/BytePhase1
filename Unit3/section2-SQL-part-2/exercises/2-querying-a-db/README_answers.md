@@ -99,7 +99,7 @@ SELECT users.name, users.city, search_terms.word FROM users JOIN user_searches J
 SELECT * FROM search_terms WHERE word="trousers"; ----> id 496
 SELECT * FROM user_searches WHERE term_id=496; -----> 2 lines
 
-SELECT * FROM user_searches JOIN search_terms ON user_searches.term_id=search_terms.id WHERE search_terms.word = "trousers";
+SELECT COUNT(*) FROM user_searches JOIN search_terms ON user_searches.term_id=search_terms.id WHERE search_terms.word = "trousers";
 2
 
 ##### What were the search terms used by visitors who last visited on August 22 2014?
@@ -108,8 +108,8 @@ SELECT users.last_visit, search_terms.word FROM users JOIN user_searches JOIN se
 answer is mad long.....
 
 
-##### What was the most frequently used search term by people from Idaho?
-SELECT search_terms.word, COUNT(*) FROM users JOIN user_searches JOIN search_terms ON user_searches.user_id = users.id AND user_searches.term_id = search_terms.id WHERE users.state="ID" GROUP BY search_terms.word;
+##### What was the most frequently used search term by people from Idaho
+SELECT search_terms.word, COUNT(*) FROM users JOIN user_searches JOIN search_terms ON user_searches.user_id = users.id AND user_searches.term_id = search_terms.id WHERE users.state="CA" GROUP BY search_terms.word;
 
 ##### What is the name of user 391, and what are his search terms?
 SELECT users.name, search_terms.word FROM users JOIN user_searches JOIN search_terms ON user_searches.user_id = users.id WHERE users.id=391 GROUP BY search_terms.word;
