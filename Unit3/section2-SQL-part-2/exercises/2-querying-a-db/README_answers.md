@@ -94,7 +94,7 @@ SELECT users.name, users.city, search_terms.word FROM users JOIN user_searches J
     Penelope Stein|Runaway Bay|drain
     Tisha Gill|Bausell and Ellis|drain
     Rolando Crowley|Buda|drain
-
+`
 ##### How many times was "trousers" a search term?
 SELECT * FROM search_terms WHERE word="trousers"; ----> id 496
 SELECT * FROM user_searches WHERE term_id=496; -----> 2 lines
